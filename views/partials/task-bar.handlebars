@@ -1,0 +1,10 @@
+<li>
+    {{name}}
+
+    <button class="change-task" data-id="{{id}}" data-newtask="{{task}}">
+        {{#if task}}Complete!{{else}}TO-DO!{{/if}}
+    </button>
+
+
+    <button class="delete-task" data-id="{{this.id}}">Remove!</button>
+</li>
