@@ -17,8 +17,8 @@
         <div class="form-group">
             <label for="done">To be Added or Completed?</label>
 
-            <input type="radio" name="done" value="0" checked>Add
-            <input type="radio" name="done" value="1">Completed<br>
+            <input type="radio" name="done" value="0" checked> Add
+            <input type="radio" name="done" value="1"> Completed<br>
 
         </div>
         {{!-- 
@@ -29,20 +29,20 @@
 
 
     <h2>Complete Me</h2>
-    <ul>
+    <ul class="group-list">
         {{#each task}}
         {{#unless done}}
-        {{> task/task-bar task=true}}
+        {{> task-bar task=true}}
         {{/unless}}
         {{/each}}
     </ul>
 
     <h2>Completed Tasks</h2>
 
-    <ul>
+    <ul class="group-list">
         {{#each task}}
         {{#if done}}
-        {{> task/task-bar task=false}}
+        {{> task-bar task=false}}
         {{/if}}
         {{/each}}
     </ul>

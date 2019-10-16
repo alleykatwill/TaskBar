@@ -1,10 +1,10 @@
-<li>
+<li class="list-group-item">
     {{name}}
 
-    <button class="change-task" data-id="{{id}}" data-newtask="{{task}}">
+    <button class="btn change-task" data-id="{{id}}" data-newtask="{{task}}">
         {{#if task}}Complete!{{else}}TO-DO!{{/if}}
     </button>
 
 
-    <button class="delete-task" data-id="{{this.id}}">Remove!</button>
+    <button class="btn delete-task" data-id="{{this.id}}">Remove!</button>
 </li>
