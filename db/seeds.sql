@@ -1,28 +1,28 @@
-INSERT INTO task
-    (name)
+INSERT INTO taskbar
+    (task)
 VALUES
     ('Wash Car');
-INSERT INTO task
-    (name)
+INSERT INTO taskbar
+    (task)
 VALUES
     ('Pick Up Cybers Meds');
-INSERT INTO task
-    (name)
+INSERT INTO taskbar
+    (task)
 VALUES
     ('Finish Bootcamp Homework');
-INSERT INTO task
-    (name)
+INSERT INTO taskbar
+    (task)
 VALUES
     ('Schedule Netowrking CompTIA Exam');
-INSERT INTO task
-    (name, done)
+INSERT INTO taskbar
+    (task, done)
 VALUES
     ('Call Dad For His Birthday', true);
-INSERT INTO task
-    (name, done)
+INSERT INTO taskbar
+    (task, done)
 VALUES
     ('Order Circle Zero Prodcuts', true);
-INSERT INTO task
-    (name, done)
+INSERT INTO taskbar
+    (task, done)
 VALUES
     ('Get Moving Quote', true);
